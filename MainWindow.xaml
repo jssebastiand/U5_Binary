@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <StackPanel HorizontalAlignment="Stretch">
+        <Image Source="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJzfTSGjpL6DprZlxdE5wSbMdSIG7zzjOEKX_u9XmKPAE4wEC" Height="200" Width="200"/>
         <TextBox AcceptsReturn="True" TextWrapping="Wrap" x:Name="txtInput"/>
         <Button x:Name="btnRun" Content="BINARY" Click="btnRun_Click_1"/>
         <Label x:Name="lblOutput"/>
